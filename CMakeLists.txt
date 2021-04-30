@@ -102,3 +102,5 @@ if(IMPORT_DEPTH_CAM_FW)
 endif()
 
 include(CMake/embedd_udev_rules.cmake)
+
+add_subdirectory(test-pc)
